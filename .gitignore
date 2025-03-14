@@ -1,0 +1,72 @@
+# Ignore Django's internal files and folders
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Ignore virtual environment files (if you're using one)
+venv/
+
+# Ignore Django's project tmp directory
+tmp/
+
+# Ignore Django's cache directory
+*cache*
+
+# Ignore Python's build-in temp directory
+*.pyd
+
+# Ignore Django's logs
+logs/
+
+# Ignore Pycache
+.cache/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+*.swn
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore database files
+db.sqlite3
+*.sqlite3
+
+# Ignore logs and temp files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pid
+*.seed
+*.cover
+
+# Ignore static and media files
+staticfiles/
+media/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+
+# Ignore migrations (optional, if you want to track only models)
+**/migrations/**/*
+!**/migrations/__init__.py
+
+
+
