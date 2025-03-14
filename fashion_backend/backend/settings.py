@@ -150,6 +150,7 @@ ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
     "10.0.2.2",  # Android Emulator
+    "139.59.75.234",
 ]
 
 CORS_ALLOWED_ORIGINS = [
